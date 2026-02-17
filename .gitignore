@@ -11,3 +11,8 @@ wheels/
 
 
 .ruff_cache
+docs/_build/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
