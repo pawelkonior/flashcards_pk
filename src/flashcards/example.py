@@ -1,11 +1,12 @@
-def add(a: int, b: int) -> int:
+def add(a: int, b: int, c: int = 0) -> int:
     """Add two values together.
 
     Args:
         a: First value.
         b: Second value.
+        c: Third value (default is 0).
 
     Returns:
-        Sum of ``a`` and ``b``.
+        Sum of ``a``, ``b``, and ``c``.
     """
-    return a + b
+    return a + b + c
